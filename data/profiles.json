@@ -1,0 +1,422 @@
+[
+  {
+    "id": "p01",
+    "name": "Aarav Mehta",
+    "age": 18,
+    "photo": "https://api.dicebear.com/9.x/avataaars/svg?seed=Aarav%20Mehta",
+    "bio": "Professional overthinker, amateur chef.",
+    "place": "Delhi University",
+    "interests": [
+      "Coffee",
+      "Photography",
+      "Gym"
+    ],
+    "likedYou": false
+  },
+  {
+    "id": "p02",
+    "name": "Ananya Iyer",
+    "age": 25,
+    "photo": "https://api.dicebear.com/9.x/avataaars/svg?seed=Ananya%20Iyer",
+    "bio": "Can lose you at chess, will win you at Uno.",
+    "place": "Amity University, Noida",
+    "interests": [
+      "Stand-up comedy",
+      "Reading",
+      "Movies"
+    ],
+    "likedYou": true
+  },
+  {
+    "id": "p03",
+    "name": "Kabir Malhotra",
+    "age": 24,
+    "photo": "https://api.dicebear.com/9.x/avataaars/svg?seed=Kabir%20Malhotra",
+    "bio": "Collects concert wristbands and bad puns.",
+    "place": "Gurgaon",
+    "interests": [
+      "Gaming",
+      "Travel",
+      "Podcasts"
+    ],
+    "likedYou": false
+  },
+  {
+    "id": "p04",
+    "name": "Diya Kapoor",
+    "age": 23,
+    "photo": "https://api.dicebear.com/9.x/avataaars/svg?seed=Diya%20Kapoor",
+    "bio": "Will definitely beat you at FIFA.",
+    "place": "BITS Pilani",
+    "interests": [
+      "Anime",
+      "Chess",
+      "Coding"
+    ],
+    "likedYou": false
+  },
+  {
+    "id": "p05",
+    "name": "Rohan Verma",
+    "age": 22,
+    "photo": "https://api.dicebear.com/9.x/avataaars/svg?seed=Rohan%20Verma",
+    "bio": "Looking for someone to split fries with.",
+    "place": "Ahmedabad University",
+    "interests": [
+      "Dancing",
+      "Cricket",
+      "Indie music"
+    ],
+    "likedYou": true
+  },
+  {
+    "id": "p06",
+    "name": "Ishita Sharma",
+    "age": 21,
+    "photo": "https://api.dicebear.com/9.x/avataaars/svg?seed=Ishita%20Sharma",
+    "bio": "Always up for a late-night Maggi run.",
+    "place": "Manipal University",
+    "interests": [
+      "Painting",
+      "Coffee",
+      "Photography"
+    ],
+    "likedYou": false
+  },
+  {
+    "id": "p07",
+    "name": "Vihaan Singh",
+    "age": 20,
+    "photo": "https://api.dicebear.com/9.x/avataaars/svg?seed=Vihaan%20Singh",
+    "bio": "Fluent in sarcasm and Hindi film dialogues.",
+    "place": "VIT Vellore",
+    "interests": [
+      "Street food",
+      "Stand-up comedy",
+      "Reading"
+    ],
+    "likedYou": false
+  },
+  {
+    "id": "p08",
+    "name": "Meera Nair",
+    "age": 19,
+    "photo": "https://api.dicebear.com/9.x/avataaars/svg?seed=Meera%20Nair",
+    "bio": "Part-time dreamer, full-time snack hoarder.",
+    "place": "Symbiosis, Pune",
+    "interests": [
+      "Football",
+      "Gaming",
+      "Travel"
+    ],
+    "likedYou": true
+  },
+  {
+    "id": "p09",
+    "name": "Arjun Reddy",
+    "age": 18,
+    "photo": "https://api.dicebear.com/9.x/avataaars/svg?seed=Arjun%20Reddy",
+    "bio": "Weekend trekker, weekday napper.",
+    "place": "SRCC, Delhi",
+    "interests": [
+      "Hiking",
+      "Anime",
+      "Chess"
+    ],
+    "likedYou": false
+  },
+  {
+    "id": "p10",
+    "name": "Saanvi Gupta",
+    "age": 25,
+    "photo": "https://api.dicebear.com/9.x/avataaars/svg?seed=Saanvi%20Gupta",
+    "bio": "Dog person who is learning to like cats.",
+    "place": "Christ University, Bengaluru",
+    "interests": [
+      "Cooking",
+      "Dancing",
+      "Cricket"
+    ],
+    "likedYou": false
+  },
+  {
+    "id": "p11",
+    "name": "Aditya Joshi",
+    "age": 24,
+    "photo": "https://api.dicebear.com/9.x/avataaars/svg?seed=Aditya%20Joshi",
+    "bio": "Currently reading three books, finishing none.",
+    "place": "Jamia Millia Islamia",
+    "interests": [
+      "Gym",
+      "Painting",
+      "Coffee"
+    ],
+    "likedYou": true
+  },
+  {
+    "id": "p12",
+    "name": "Riya Bansal",
+    "age": 23,
+    "photo": "https://api.dicebear.com/9.x/avataaars/svg?seed=Riya%20Bansal",
+    "bio": "Will trade playlists for good chai.",
+    "place": "Ashoka University",
+    "interests": [
+      "Movies",
+      "Street food",
+      "Stand-up comedy"
+    ],
+    "likedYou": false
+  },
+  {
+    "id": "p13",
+    "name": "Karan Chopra",
+    "age": 22,
+    "photo": "https://api.dicebear.com/9.x/avataaars/svg?seed=Karan%20Chopra",
+    "bio": "Ask me about my favourite underrated film.",
+    "place": "NMIMS Mumbai",
+    "interests": [
+      "Podcasts",
+      "Football",
+      "Gaming"
+    ],
+    "likedYou": false
+  },
+  {
+    "id": "p14",
+    "name": "Tara Menon",
+    "age": 21,
+    "photo": "https://api.dicebear.com/9.x/avataaars/svg?seed=Tara%20Menon",
+    "bio": "Gym at 6am, memes at 6pm.",
+    "place": "IIT Delhi",
+    "interests": [
+      "Coding",
+      "Hiking",
+      "Anime"
+    ],
+    "likedYou": true
+  },
+  {
+    "id": "p15",
+    "name": "Yash Agarwal",
+    "age": 20,
+    "photo": "https://api.dicebear.com/9.x/avataaars/svg?seed=Yash%20Agarwal",
+    "bio": "Sunsets, filter coffee, long walks.",
+    "place": "Shiv Nadar University",
+    "interests": [
+      "Indie music",
+      "Cooking",
+      "Dancing"
+    ],
+    "likedYou": false
+  },
+  {
+    "id": "p16",
+    "name": "Naina Sethi",
+    "age": 19,
+    "photo": "https://api.dicebear.com/9.x/avataaars/svg?seed=Naina%20Sethi",
+    "bio": "Professional overthinker, amateur chef.",
+    "place": "Delhi University",
+    "interests": [
+      "Photography",
+      "Gym",
+      "Painting"
+    ],
+    "likedYou": false
+  },
+  {
+    "id": "p17",
+    "name": "Dev Khanna",
+    "age": 18,
+    "photo": "https://api.dicebear.com/9.x/avataaars/svg?seed=Dev%20Khanna",
+    "bio": "Can lose you at chess, will win you at Uno.",
+    "place": "Amity University, Noida",
+    "interests": [
+      "Reading",
+      "Movies",
+      "Street food"
+    ],
+    "likedYou": true
+  },
+  {
+    "id": "p18",
+    "name": "Kiara Bhatia",
+    "age": 25,
+    "photo": "https://api.dicebear.com/9.x/avataaars/svg?seed=Kiara%20Bhatia",
+    "bio": "Collects concert wristbands and bad puns.",
+    "place": "Gurgaon",
+    "interests": [
+      "Travel",
+      "Podcasts",
+      "Football"
+    ],
+    "likedYou": false
+  },
+  {
+    "id": "p19",
+    "name": "Nikhil Rao",
+    "age": 24,
+    "photo": "https://api.dicebear.com/9.x/avataaars/svg?seed=Nikhil%20Rao",
+    "bio": "Will definitely beat you at FIFA.",
+    "place": "BITS Pilani",
+    "interests": [
+      "Chess",
+      "Coding",
+      "Hiking"
+    ],
+    "likedYou": false
+  },
+  {
+    "id": "p20",
+    "name": "Aisha Khan",
+    "age": 23,
+    "photo": "https://api.dicebear.com/9.x/avataaars/svg?seed=Aisha%20Khan",
+    "bio": "Looking for someone to split fries with.",
+    "place": "Ahmedabad University",
+    "interests": [
+      "Cricket",
+      "Indie music",
+      "Cooking"
+    ],
+    "likedYou": true
+  },
+  {
+    "id": "p21",
+    "name": "Pranav Desai",
+    "age": 22,
+    "photo": "https://api.dicebear.com/9.x/avataaars/svg?seed=Pranav%20Desai",
+    "bio": "Always up for a late-night Maggi run.",
+    "place": "Manipal University",
+    "interests": [
+      "Coffee",
+      "Photography",
+      "Gym"
+    ],
+    "likedYou": false
+  },
+  {
+    "id": "p22",
+    "name": "Simran Kaur",
+    "age": 21,
+    "photo": "https://api.dicebear.com/9.x/avataaars/svg?seed=Simran%20Kaur",
+    "bio": "Fluent in sarcasm and Hindi film dialogues.",
+    "place": "VIT Vellore",
+    "interests": [
+      "Stand-up comedy",
+      "Reading",
+      "Movies"
+    ],
+    "likedYou": false
+  },
+  {
+    "id": "p23",
+    "name": "Ayaan Ahmed",
+    "age": 20,
+    "photo": "https://api.dicebear.com/9.x/avataaars/svg?seed=Ayaan%20Ahmed",
+    "bio": "Part-time dreamer, full-time snack hoarder.",
+    "place": "Symbiosis, Pune",
+    "interests": [
+      "Gaming",
+      "Travel",
+      "Podcasts"
+    ],
+    "likedYou": true
+  },
+  {
+    "id": "p24",
+    "name": "Myra Fernandes",
+    "age": 19,
+    "photo": "https://api.dicebear.com/9.x/avataaars/svg?seed=Myra%20Fernandes",
+    "bio": "Weekend trekker, weekday napper.",
+    "place": "SRCC, Delhi",
+    "interests": [
+      "Anime",
+      "Chess",
+      "Coding"
+    ],
+    "likedYou": false
+  },
+  {
+    "id": "p25",
+    "name": "Harsh Tiwari",
+    "age": 18,
+    "photo": "https://api.dicebear.com/9.x/avataaars/svg?seed=Harsh%20Tiwari",
+    "bio": "Dog person who is learning to like cats.",
+    "place": "Christ University, Bengaluru",
+    "interests": [
+      "Dancing",
+      "Cricket",
+      "Indie music"
+    ],
+    "likedYou": false
+  },
+  {
+    "id": "p26",
+    "name": "Zoya Siddiqui",
+    "age": 25,
+    "photo": "https://api.dicebear.com/9.x/avataaars/svg?seed=Zoya%20Siddiqui",
+    "bio": "Currently reading three books, finishing none.",
+    "place": "Jamia Millia Islamia",
+    "interests": [
+      "Painting",
+      "Coffee",
+      "Photography"
+    ],
+    "likedYou": true
+  },
+  {
+    "id": "p27",
+    "name": "Rahul Pillai",
+    "age": 24,
+    "photo": "https://api.dicebear.com/9.x/avataaars/svg?seed=Rahul%20Pillai",
+    "bio": "Will trade playlists for good chai.",
+    "place": "Ashoka University",
+    "interests": [
+      "Street food",
+      "Stand-up comedy",
+      "Reading"
+    ],
+    "likedYou": false
+  },
+  {
+    "id": "p28",
+    "name": "Avni Saxena",
+    "age": 23,
+    "photo": "https://api.dicebear.com/9.x/avataaars/svg?seed=Avni%20Saxena",
+    "bio": "Ask me about my favourite underrated film.",
+    "place": "NMIMS Mumbai",
+    "interests": [
+      "Football",
+      "Gaming",
+      "Travel"
+    ],
+    "likedYou": false
+  },
+  {
+    "id": "p29",
+    "name": "Ishaan Bose",
+    "age": 22,
+    "photo": "https://api.dicebear.com/9.x/avataaars/svg?seed=Ishaan%20Bose",
+    "bio": "Gym at 6am, memes at 6pm.",
+    "place": "IIT Delhi",
+    "interests": [
+      "Hiking",
+      "Anime",
+      "Chess"
+    ],
+    "likedYou": true
+  },
+  {
+    "id": "p30",
+    "name": "Pooja Rawat",
+    "age": 21,
+    "photo": "https://api.dicebear.com/9.x/avataaars/svg?seed=Pooja%20Rawat",
+    "bio": "Sunsets, filter coffee, long walks.",
+    "place": "Shiv Nadar University",
+    "interests": [
+      "Cooking",
+      "Dancing",
+      "Cricket"
+    ],
+    "likedYou": false
+  }
+]

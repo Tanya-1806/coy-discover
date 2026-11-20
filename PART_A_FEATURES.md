@@ -1,38 +1,33 @@
-# Part A: Two core features Coy should have
+# Part A: Coy Experience and Suggested Core Features
 
-Coy's core promise is that a crush stays secret unless it is mutual. Both features below grow the product without breaking that promise.
+## My experience of the app
 
-## Feature 1: Anonymous "Hints" (progressive clues about a crush)
+I explored Coy end to end: phone OTP login, adding a crush, email verification, the invite link and the extra-slots screen. The experience was smooth and intuitive, and the flow is easy to follow for a first-time user.
 
-**What it is.** When a user adds a crush who is not on Coy yet, or has not added them back, the user can unlock small, privacy-safe signals that keep them engaged. Examples: "your crush has opened the invite", "your crush has joined Coy", and later "your crush has added someone" (never who). Nothing identifies anyone, and nothing is revealed that could expose a one-sided crush.
+Its strongest aspect is its privacy model. A crush remains completely hidden until the other person adds the user back, so users face no embarrassment or discomfort if feelings are not reciprocated. This is the core promise that builds user trust. The extra-slots model also gives Coy a clear and natural way to earn revenue while the free experience stays useful, so the product works well for both users and the company.
 
-**Why it is required.**
-- Today, after adding a crush, the user's only feedback loop is silence. Silence feels the same as rejection, and users churn before the crush ever joins.
-- Status hints give users a reason to come back, and they are the natural trigger for push notifications (re-engagement without spam).
-- A user who sees "your crush joined" is far more likely to spend on extra slots, so it supports monetisation.
+## Feature 1: Anonymous Hints
 
-**Privacy edge cases to design for.**
-- A hint like "someone added you" is itself information. Show it only to users who have added at least one crush, delay it, and never show a count that could identify one person.
-- Never reveal that a crush declined or removed you.
-- Rate-limit lookups so nobody can probe the hint endpoint to infer who added whom.
-
-**Success metrics.** D7 retention for users with at least one pending crush, notification open rate, invite-to-signup conversion.
-
-## Feature 2: Invite rewards with a trackable invite link
-
-**What it is.** Each user gets a personal invite link. When a friend or crush signs up through it and completes phone and email verification, the inviter earns a free extra crush slot. The invite page shows the inviter's first name or nothing at all (the inviter chooses), never "X has a crush on you".
+**What it is.** Users receive privacy-safe status signals about a crush, such as "your crush has opened the invite" or "your crush has joined Coy". These signals never identify anyone or reveal one-sided interest.
 
 **Why it is required.**
-- Coy is a network product: a crush can only match if they are on the app. The biggest growth bottleneck is getting crushes to sign up.
-- Right now the paywall (extra slots) competes with the invite flow. Rewarding successful invites turns the slot limit from a wall into a growth loop: free users earn slots by bringing people, paying users still buy instantly.
-- Verified signups (OTP plus email) in the reward condition protect against fake accounts farming slots.
+- After adding a crush, the user currently gets no feedback. Silence feels like rejection and leads to drop-off.
+- Hints give users a reason to return and create natural moments for push notifications.
+- A user who sees that a crush has joined is more likely to buy extra slots, so it supports revenue.
 
-**Edge cases.**
-- Self-invites and duplicate phone numbers or emails must not earn rewards.
-- Cap total earned slots per user to protect revenue.
-- The invite landing page must not reveal who invited the visitor unless the inviter opted in, so a crush cannot be deduced from an invite.
+**Privacy considerations.** A hint must never reveal that someone added the user, that a crush declined, or any count that could identify one person. Hint requests should be rate-limited so they cannot be used to probe who added whom.
 
-**Success metrics.** Invites sent per user, invite-to-verified-signup rate, share of new users from invites, paid conversion of users who hit the slot limit.
+**Success metrics.** Day-7 retention for users with a pending crush, notification open rate, and invite-to-signup conversion.
 
----
-*Note to self before submitting: add 2-3 lines from your own walkthrough of app.getcoy.com (OTP login, adding a crush, email verification, invite link, extra-slots screen) that show where the friction was. That is what the assignment is really checking.*
+## Feature 2: Invite Rewards
+
+**What it is.** Each user has a personal invite link. When an invited person completes phone and email verification, the inviter earns a free extra crush slot.
+
+**Why it is required.**
+- A match is only possible if the crush is on Coy, so growth depends on invitations.
+- Rewarding verified invites turns the slot limit into a growth loop rather than a barrier, while paying users can still buy slots instantly.
+- Requiring verification prevents fake-account abuse.
+
+**Privacy considerations.** The invite page must not reveal who invited the visitor unless the inviter opts in. Self-invites and duplicate phone numbers or emails must not earn rewards, and the number of earned slots should be capped.
+
+**Success metrics.** Invites sent per user, invite-to-verified-signup rate, share of new users from invites, and paid conversion among users who reach the slot limit.
